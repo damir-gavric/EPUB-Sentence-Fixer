@@ -1,0 +1,44 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# PyCharm / IDE
+# =========================
+.idea/
+*.iml
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Application specific
+# =========================
+# Temporary extracted EPUB content
+_epub_working/
+
+# Logs generated on save
+*_log.txt
+
+# User-generated EPUB outputs
+*.epub
+
+# =========================
+# Build / distribution (future-proof)
+# =========================
+build/
+dist/
+*.spec
